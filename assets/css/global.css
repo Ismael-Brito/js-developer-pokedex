@@ -4,18 +4,19 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background: #424242 url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background: #fff url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
 }
 
 @media screen and (min-width: 992px) {
     .content {
+        display: block;
         max-width: 992px;
         height: auto;
         margin: 1rem auto;
